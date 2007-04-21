@@ -1,0 +1,6 @@
+Revision history for Perl extension WWW::Bleep.
+
+0.9  Tue Apr 10 09:40:55 2007
+	- original version; created by h2xs 1.23 with options
+		-X -n WWW::Bleep
+
