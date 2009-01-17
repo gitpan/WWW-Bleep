@@ -1,6 +1,6 @@
 Revision history for Perl extension WWW::Bleep.
 
-0.9.1   Sat Jan 17 16:04:01 2009
+0.91    Sat Jan 17 16:04:01 2009
             * Switch Perl version req from 5.8.8 to 5.8.0
             * Tweak test to reflect remote data
 

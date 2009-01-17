@@ -12,7 +12,7 @@ use vars qw( @ISA @EXPORT @EXPORT_OK $VERSION );
 @EXPORT = qw(error album artists tracks);
 @EXPORT_OK = qw();
 @ISA = qw(Exporter);
-$VERSION = '0.9.1';
+$VERSION = '0.91';
 
 sub new($);
 sub album($);
@@ -27,7 +27,7 @@ WWW::Bleep - Perl interface to Bleep.com
 
 =head1 VERSION
 
-Version 0.9.1
+Version 0.91
 
 =head1 SYNOPSIS
 
@@ -385,7 +385,7 @@ Clif Bratcher, E<lt>snevine@cpan.orgE<gt>
 =head1 COPYRIGHT AND LICENSE
 
 
-Copyright (C) 2006, 2007 by Clif Bratcher
+Copyright (C) 2006 - 2009 by Clif Bratcher
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.8 or,

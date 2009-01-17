@@ -1,5 +1,5 @@
-WWW-Bleep version 0.9
-=====================
+WWW-Bleep version 0.91
+======================
 
 A fairly simple module that allows you to skim Bleep.com for various
 information.  In combination with a simple database this can make 
@@ -29,7 +29,7 @@ HTTP::TokeParser
 
 COPYRIGHT AND LICENCE
 
-Copyright (C) 2007 by Clif Bratcher
+Copyright (C) 2006 - 2009 by Clif Bratcher
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.8 or,
