@@ -24,7 +24,7 @@ is( $album{tracks}->{"06"}{valid}, 1, 'Track Valid' );
 
 # Validate artist lookup
 ok( @artists = $bleep->artists(label => 'Warp'), 'Artists List' );
-is( $artists[0], '!!! (Chk Chk Chk)', 'Specific Artist' );
+is( $artists[0], '!!!', 'Specific Artist' );
 is( $bleep->error(), '' , 'Artists Error' );
 
 #Validate track lookup

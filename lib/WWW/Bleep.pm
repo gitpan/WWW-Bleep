@@ -1,18 +1,18 @@
 package WWW::Bleep;
 
-use 5.008008;
+use 5.008;
 use strict;
 use warnings;
 use LWP::UserAgent;
 use HTML::TokeParser;
-#use Data::Dumper;
+
 require Exporter;
 use vars qw( @ISA @EXPORT @EXPORT_OK $VERSION );
 
 @EXPORT = qw(error album artists tracks);
 @EXPORT_OK = qw();
 @ISA = qw(Exporter);
-$VERSION = '0.9';
+$VERSION = '0.9.1';
 
 sub new($);
 sub album($);
@@ -27,8 +27,7 @@ WWW::Bleep - Perl interface to Bleep.com
 
 =head1 VERSION
 
-
-Version 0.9
+Version 0.9.1
 
 =head1 SYNOPSIS
 
